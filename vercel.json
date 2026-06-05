@@ -1,0 +1,8 @@
+{
+  "name": "xhalo-web",
+  "version": 2,
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/$1" }
+  ]
+}

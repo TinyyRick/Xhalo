@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>联系我们 | 兴火通讯 XHalo</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html"><img src="assets/xhalo-logo.png" alt="兴火通讯 XHalo" /></a>
+      <button class="nav-toggle" type="button" aria-label="打开导航" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav class="site-nav" aria-label="主导航">
+        <a href="index.html">首页</a>
+        <a href="solutions.html">解决方案</a>
+        <a href="products.html">产品中心</a>
+        <a href="news.html">新闻动态</a>
+        <a href="contact.html" aria-current="page">联系我们</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <p class="eyebrow">CONTACT</p>
+        <h1>联系兴火通讯展会团队</h1>
+      </section>
+
+      <section class="section contact-layout">
+        <div class="contact-panel">
+          <h2>展会联络</h2>
+          <p>商务咨询：contact@xhalo.site</p>
+          <p>展位信息：模拟通讯展 A2-18</p>
+          <p class="disclaimer">以上信息仅在 2026 年中兴捧月营销赛道决赛时间 6 月 12 日-6 月 16 日内有效，不代表真实企业联络方式。</p>
+        </div>
+        <form class="contact-form" id="demoForm">
+          <label>
+            姓名
+            <input name="name" type="text" placeholder="请输入姓名" required />
+          </label>
+          <label>
+            机构
+            <input name="org" type="text" placeholder="请输入机构名称" required />
+          </label>
+          <label>
+            关注方向
+            <select name="interest">
+              <option>运营商网络升级</option>
+              <option>云网融合</option>
+              <option>行业专网</option>
+              <option>智能运维</option>
+              <option>绿色低碳网络</option>
+            </select>
+          </label>
+          <label>
+            留言
+            <textarea name="message" rows="4" placeholder="请输入希望了解的内容"></textarea>
+          </label>
+          <button class="btn primary" type="submit">提交演示咨询</button>
+          <p class="form-note" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div><strong>兴火通讯 XHalo</strong><p>本网站用于模拟展示。</p></div>
+      <a href="index.html">返回首页</a>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
